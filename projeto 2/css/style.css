@@ -2,3 +2,32 @@
     background-color: rgb(240, 209, 240);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.imagem {
+    width: 50%;
+    height: 50%;
+    flex-basis: auto;
+    align-items: center;
+}
+
+h3 {
+    background-color: rgb(211, 113, 211);
+    color: darkmagenta;
+    text-align: center;
+    font-size: 150%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+p {
+    font-size: 100%;
+}
+
+img {
+    width: 650px;
+    height: 400px;
+    flex-basis: auto;
+    align-items: center;
+}
