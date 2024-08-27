@@ -28,6 +28,14 @@ p {
 img {
     width: 650px;
     height: 400px;
-    flex-basis: auto;
-    align-items: center;
+    padding: 0%;
+    border-radius: 5px;
+    border: 10px solid  darkmagenta;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
 }
