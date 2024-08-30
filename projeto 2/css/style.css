@@ -3,11 +3,11 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.imagem {
-    width: 50%;
-    height: 50%;
-    flex-basis: auto;
-    align-items: center;
+.Imagem{
+    width: 45%;
+    height: 45%;
+    margin: auto;
+    display: block;
 }
 
 h3 {
@@ -28,7 +28,6 @@ p {
 img {
     width: 650px;
     height: 400px;
-    padding: 0%;
     border-radius: 5px;
     border: 10px solid  darkmagenta;
 }
@@ -38,4 +37,19 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
+}
+
+.Voltar{
+    position: relative;
+    background-color: rgb(230, 151, 230);
+    color: darkmagenta;
+    font-size: 100%;
+    display: inline;
+    float: right;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.Voltar:hover{
+    text-shadow: 0px 0px 5px rgb(248, 114, 248);
 }

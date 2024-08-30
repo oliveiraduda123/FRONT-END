@@ -1,0 +1,26 @@
+footer{
+    color: darkmagenta;
+    padding: 3px;
+    text-align: center;
+}
+
+h4{
+    font-size: 100%;
+}
+
+li{
+    display: list-item;
+    margin: 5px;
+    list-style: none;
+    color: darkmagenta;
+}
+
+a{
+    color: rgb(206, 22, 206);
+    text-decoration: none;
+}
+
+a:hover{
+    text-shadow: 0px 0px 5px rgb(248, 114, 248);
+}
+
