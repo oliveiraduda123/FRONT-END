@@ -25,7 +25,13 @@ p {
     font-size: 100%;
 }
 
-img {
+.image-ancora{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-ancora > img{
     width: 650px;
     height: 400px;
     border-radius: 5px;
