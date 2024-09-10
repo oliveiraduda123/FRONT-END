@@ -20,7 +20,7 @@ form {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(3, 60, 87);
-    background-color: rgb(213, 210, 210);
+    background-color: rgba(154, 234, 248, 0.5);
     padding: 3%;
     margin-top: 1%;
 }
@@ -44,6 +44,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: rgba(4, 78, 112, 0.582);
+    background-color: rgba(9, 119, 170, 0.582);
     box-shadow: 0px 0px 8px black;
 }
