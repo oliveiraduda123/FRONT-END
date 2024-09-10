@@ -26,10 +26,6 @@ p {
     text-align: center;
 }
 
-span{
-    font-weight: bold;
-}
-
 img {
     width: 750px;
     height: 500px;
@@ -73,7 +69,7 @@ img {
 }
 
 .tablebolo{
-    width: 55%;
+    width: 80%;
     border-collapse: collapse;
     font-size: 15px;
     display: table;
@@ -87,3 +83,39 @@ td, th{
     padding: 8px 15px;
     border: 3px solid darkmagenta;
 }
+
+.tabletortaamem{
+    width: 45%;
+    border-collapse: collapse;
+    font-size: 15px;
+    display: table;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    margin: auto;
+} 
+
+.tabletortamoran{
+    width: 60%;
+    border-collapse: collapse;
+    font-size: 15px;
+    display: table;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    margin: auto;
+} 
+
+.tabletortauvamaça{
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 15px;
+    display: table;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    margin: auto;
+} 
+
+h4{
+    text-align: center;
+    color: darkmagenta;
+}
+

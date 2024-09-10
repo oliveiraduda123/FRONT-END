@@ -1,0 +1,50 @@
+.portifolio {
+    padding: 80px 4%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+span{
+    color:  rgb(34, 124, 96);
+}
+
+.flexbox {
+    align-items: center;
+    gap: 20px;
+}
+
+.imgPort {
+    height: 180%;
+    width: 200%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.recipe{
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+}
+.recipe:hover, .recipe2:hover{
+    transition: all ease-in-out 0.2s;
+    box-shadow:0px 0px 30px 0px  rgb(11, 69, 17);
+}
+.recipe2{
+    margin-top: 10%;
+}
+
+.estilo, .estilo1{
+    text-align: center;
+    font-size: 80%;
+}
+
+.estilo1{
+    margin-left: 15%;
+}
+
+
+
+
