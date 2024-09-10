@@ -47,3 +47,6 @@ input[type="submit"]:hover {
     background-color: rgba(9, 119, 170, 0.582);
     box-shadow: 0px 0px 8px black;
 }
+.Voltar{
+    margin-top: 200%;
+}
