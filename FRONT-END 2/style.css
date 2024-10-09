@@ -16,12 +16,36 @@ header{
     gap: 20px;
 }
 
-.container-menu{
+.container-menu>li{
     position: relative;
+}
+
+.container-menu>li:hover .container-sub-menu{
+    max-width:100vh;
+}
+
+.container-menu>li ::after{
+    content: '-';
+    position: absolute;
+    top: 10%;
+    height: 80%;
+    width: 1px;
+    background-color: #fff;
+    right: -10px;
+}
+
+.container-menu> li:last-child ::after{
+    display: none;
 }
 
 .container-sub-menu{
     position: absolute;
+    overflow: hidden;
+    max-width: 0;
+    left: 10px;
+    background-color:rgba(238, 75, 162, 0.781); 
+    border-radius: 5px;
+    transition: 1s;
 }
 
 
@@ -29,6 +53,14 @@ ul{
     list-style-type: none;
 }
 
+.link-sub-menu{
+    font-size: 18px;
+    color: darkmagenta;
+    display: none;
+}
+
 a{
     color: #fff;
+    font-size: 20px;
+    text-decoration: none;
 }
