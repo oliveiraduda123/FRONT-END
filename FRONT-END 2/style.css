@@ -5,7 +5,7 @@
 
 header {
     height: 100px;
-    background-color: #474747;
+    background-color: darkmagenta;
 }
 
 .container-menu {
@@ -73,3 +73,26 @@ a {
     color: #b6acac;
         /* display: none;  Existe mais foi removido */
  }
+
+ div {
+    width: 500px;
+    height: 200px;
+}
+
+.container1 {
+    background-color: blue;
+}
+
+.container2 {
+    background-color: rgb(0, 255, 234);
+}
+
+.container3 {
+    background-color: rgb(72, 255, 0);
+}
+
+@media (max-width:600px){
+    .container2 {
+        display: none;
+    }
+}
