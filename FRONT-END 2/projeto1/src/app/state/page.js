@@ -16,10 +16,11 @@ export default function State(){
     }
     return(
         <div>
-            {}/*<p>{conteudo}</p>
-            <button onClick={controlarParagrafo}>mudar</button>
-            <button>{showDiv?'Esconder': 'Mostrar'}</button>
-        {showDiv &&(
+            {/*<p>{conteudo}</p>
+            <button onClick={controlarParagrafo}>mudar</button>*/}
+            <button onClick={() => { setShowDiv(!showDiv) }}>{showDiv?'Esconder': 'Mostrar'}</button>
+        {showDiv &&
+        (
             <div> 
             <p>Nome: {name}</p>
             <input type="text" onChange={controlarInput}/>
