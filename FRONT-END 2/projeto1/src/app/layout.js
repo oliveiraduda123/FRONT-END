@@ -1,22 +1,22 @@
-//import localFont from "next/font/local";
-import "./globals.css";
-import Header from "@/components/header";
+import Header from "@/componentes/header/Header";
+import "../style/globals.css";
 
 export const metadata = {
-  title: "Minha primeira aplicação",
-  description: "Aplicação de front end 2",
-  charset: 'UTF-8',
-  author: 'Maria eduarda',
-  keywords: 'HTML, CSS, JavaSvript, React, Next.js',
+	title: "Front-end",
+	description: "Front-End II",
+	charset: "UTF-8",
+	author: "Maria Eduarda",
+	keywords: "HTML, CSS, JavaScript, React, Next.js",
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="pt-br">
-      <body>
-       <Header></Header>
-       {children}
-      </body>
-    </html>
-  );
+	return (
+		<html lang="pt-BR">
+			<head />
+			<body>
+				<Header />
+				<main>{children}</main>
+			</body>
+		</html>
+	);
 }
