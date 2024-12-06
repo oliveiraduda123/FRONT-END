@@ -38,6 +38,9 @@ export default function Header() {
 						<li>
 							<Link href="/listas">Listas</Link>
 						</li>
+						<li>
+							<Link href="/props">Props</Link>
+						</li>
 					</ul>
 				)}
 			</nav>
