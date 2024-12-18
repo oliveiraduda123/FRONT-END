@@ -1,4 +1,4 @@
-import styles from './Card.modules.css'
+import styles from '../Card/Card.modules.css'
 
 export default function Card({nome, raca, peso, cor}){
     return(

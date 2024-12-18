@@ -41,6 +41,12 @@ export default function Header() {
 						<li>
 							<Link href="/props">Props</Link>
 						</li>
+						<li>
+							<Link href="/filterFiltro">filter</Link>
+						</li>
+						<li>
+							<Link href="/efeitos">Efeitos</Link>
+						</li>
 					</ul>
 				)}
 			</nav>
